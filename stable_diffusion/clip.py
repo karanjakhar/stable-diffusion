@@ -24,7 +24,7 @@ class CLIPEmbedding(nn.Module):
         x += self.position_embedding
 
         return x 
-    
+   
 
 
 class CLIPLayer(nn.Module):
